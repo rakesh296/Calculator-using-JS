@@ -9,9 +9,47 @@
 <link rel="stylesheet" href="calculator.css">
 
 <body>
-    <header class="head">Calculator using HTML, CSS, and JAVA-SCRIPT</header>
+    <header class="titl">Calculator using HTML, CSS, and JAVA-SCRIPT</header>
+
+    
+
     <div class="container">
-        <button type="submit" class="addtolist" id="add">Add to list</button>
+        
+        <input type="text" id="result" class="screen"placeholder="Describe your title..." rows="4" column="4">
+
+        <button type="text" class="number" id="clr"  onclick="clr()">clr</button>
+        
+        <button type="text" class="number" id="divide" value="/" onclick="divide()">/</button>
+        
+        <button type="text" class="number" id="multiply" value="*" onclick="multiply()">*</button>
+        
+        <button type="text" class="number" id="del"  onclick="del()">del</button><br>
+
+
+
+        <button type="text" class="number" id="one" value="1" onclick="btn1()">1</button>
+
+        <button type="text" class="number" id="two" value="2" onclick="btn1()">2</button>
+
+        <button type="text" class="number" id="three" value="3" onclick="btn1()">3</button>
+        
+        <button type="text" class="number" id="subs" value="-" onclick="subs()">-</button><br>
+
+
+        <button type="text" class="number" id="four" value="4" onclick="four()">4</button>
+        <button type="text" class="number" id="five" value="5" onclick="five()">5</button>
+        <button type="text" class="number" id="6" value="6" onclick="six()">6</button><button type="text" class="number" id="adds" value="+" onclick="adds()">+</button><br>
+
+
+        <button type="text" class="number" id="seven" value="7" onclick="seven()">7</button>
+        <button type="text" class="number" id="eight" value="8" onclick="eight()">8</button>
+        <button type="text" class="number" id="nine" value="9" onclick="nine()">9</button>
+        <button type="text" class="number" id="equal" value="=" onclick="equal()">=</button><br>
+
+        <button type="text" class="number" id="percent" value="%" onclick="percent()">%</button>
+        <button type="text" class="number" id="zero" value="0" onclick="zero()">0</button>
+        <button type="text" class="number" id="dot" value="." onclick="dot()">.</button>
+   
     </div>
 
 
