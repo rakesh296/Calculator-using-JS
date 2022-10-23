@@ -18,20 +18,45 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-    width: 203px;
-    height: 344px;
+    display:grid;
+    width: 201px;
+    height: 348px;
     border:2px solid black;
-    overflow: none;
     position: relative;
     top: 73px;
     left: 36vw;
+    row-gap: 2px;
+    column-gap: 1px;
+    background-color:lightslategray;
     
+    
+}
+#result{
+    grid-column: 1/5;
+    width: 199px;
+    height: 55px;
+    color:rgb(105, 9, 41);
+    background-color: aquamarine;
+    border:2px solid navy;
+}
+#equal{
+ position: relative;
+ height:680px;
+ top: 1px;
+ background-color: orange;
+}
+.last{
+    position: relative;
+    bottom: 54px;
 }
 .number{
     width: 47px;
     height: 55px;
     background-color: black;
     color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    
    
 
 }
@@ -40,12 +65,10 @@ body{
     height:55px;
     display: relative;
 }
-.screen{
-    width: 199px;
-    height: 55px;
-    color:rgb(105, 9, 41);
-    background-color: aquamarine;
-    border:2px solid navy;
-    
 
+#clr{
+    background-color: red;
 }
+
+
+
